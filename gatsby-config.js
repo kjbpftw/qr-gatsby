@@ -38,7 +38,6 @@ module.exports = {
       resolve: 'gatsby-plugin-offline',
      options: {
       workboxConfig: { importWorkboxFrom: 'cdn'},
-      precachePages: ['/splash/', '/new-wallet/', '/get-wallet/*', '/auth-transaction/*', '/validate/*'],
       appendScript: require.resolve('src/offline_helper.js'),
       
     }
