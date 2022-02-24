@@ -39,9 +39,7 @@ const Layout = ({ children }) => {
             marginTop: `2rem`,
           }}
         >
-           MADE WITH ❤️ by THE PEOPLE OF THE STATE <br>
-             © {new Date().getFullYear()}
-          {` `}
+           MADE WITH ❤️ by THE PEOPLE OF THE STATE 
         
         </footer>
       </div>
