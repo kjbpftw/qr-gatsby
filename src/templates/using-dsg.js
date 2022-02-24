@@ -6,17 +6,18 @@ import Seo from "../components/seo"
 
 const UsingDSG = () => (
   <Layout>
-    <Seo title="Using DSG" />
-    <h1>Hello from a DSG Page</h1>
-    <p>This page is not created until requested by a user.</p>
-    <p>
-      To learn more, head over to our{" "}
-      <a href="https://www.gatsbyjs.com/docs/reference/rendering-options/deferred-static-generation/">
-        documentation about Deferred Static Generation
+    <Seo title="Wallet" />
+    <h3>QuestR Wallet</h3>
+    <p>Awesome, here is your *wallet! Note: Your access keys are stored in cookies. If you clear any data relating to wesync.xyz- you are forfeiting your wallet and any of the funds associated with this account. DO NOT CLEAR ANY DATA!</p>
+  <h1>*4.20</h1>  
+  <p>
+     {" "}
+      <a href="#">
+        ADD FUNDS
       </a>
       .
     </p>
-    <Link to="/">Go back to the homepage</Link>
+    <Link to="/">Go back</Link>
   </Layout>
 )
 
