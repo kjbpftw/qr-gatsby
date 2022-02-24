@@ -6,7 +6,7 @@ module.exports = {
     siteUrl: 'https://questr.gatsbyjs.io',
   },
   plugins: [
-    'gatsby-plugin-fastclick',
+   
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-image',
     {
