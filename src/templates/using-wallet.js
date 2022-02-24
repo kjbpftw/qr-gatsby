@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-const UsingDSG = () => (
+const UsingWallet = () => (
   <Layout>
     <Seo title="Wallet" />
     <h3>QuestR Wallet</h3>
@@ -21,4 +21,4 @@ const UsingDSG = () => (
   </Layout>
 )
 
-export default UsingDSG
+export default UsingWallet
