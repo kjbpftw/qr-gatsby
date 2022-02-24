@@ -39,7 +39,8 @@ const Layout = ({ children }) => {
             marginTop: `2rem`,
           }}
         >
-          © {new Date().getFullYear()}, Made with ❤️ by THE PEOPLE OF THE STATE
+           MADE WITH ❤️ by THE PEOPLE OF THE STATE <br>
+             © {new Date().getFullYear()}
           {` `}
         
         </footer>
