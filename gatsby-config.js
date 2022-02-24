@@ -6,6 +6,13 @@ module.exports = {
     siteUrl: `https://questr.gatsbyjs.io`,
   },
   plugins: [
+    `gatsby-transformer-yaml`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/data/`
+      }
+    },
     `gatsby-plugin-fastclick`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
