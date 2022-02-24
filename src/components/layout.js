@@ -39,7 +39,9 @@ const Layout = ({ children }) => {
             marginTop: `2rem`,
           }}
         >
-           MADE WITH ❤️ by THE PEOPLE OF THE STATE 
+           MADE WITH ❤️
+{{" "}}
+ by THE PEOPLE OF THE STATE 
         
         </footer>
       </div>
