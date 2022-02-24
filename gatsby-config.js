@@ -38,7 +38,7 @@ module.exports = {
       resolve: 'gatsby-plugin-offline',
      options: {
       workboxConfig: { importWorkboxFrom: 'cdn'},
-      appendScript: require.resolve('src/offline_helper.js'),
+      appendScript: require.resolve(`src/offline_helper.js`),
       
     }
     },
