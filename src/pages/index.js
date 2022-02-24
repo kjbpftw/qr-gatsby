@@ -21,7 +21,7 @@ const IndexPage = () => (
     />
     <p>
       <Link to="/page-2/">Rules and Regulations</Link> <br />
-      <Link to="/using-typescript/">Is it Secure? </Link> <br />
+      <Link to="/secure/">Is it Secure? </Link> <br />
       <Link to="/using-ssr">I want a QR Wallet</Link> <br />
       <Link to="/using-wallet">Using a QR Wallet</Link>
     </p>
