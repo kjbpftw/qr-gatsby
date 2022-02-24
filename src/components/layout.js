@@ -40,7 +40,7 @@ const Layout = ({ children }) => {
           }}
         >
            MADE WITH ❤️
-<br>
+{' '}
  by THE PEOPLE OF THE STATE 
         
         </footer>
