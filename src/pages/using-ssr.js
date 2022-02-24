@@ -7,20 +7,16 @@ import Seo from "../components/seo"
 const UsingSSR = ({ serverData }) => {
   return (
     <Layout>
-      <Seo title="Using SSR" />
-      <h1>SSR page</h1>
+      <Seo title="QuestR: Request a WalleY" />
+      <h1>Need a WalleY?</h1>
       <img
         style={{ width: "300px" }}
-        alt="A random dog"
-        src={serverData.message}
+        alt="A QuestR WalleY"
+        src="https://chart.googleapis.com/chart?chs=300x300&cht=qr&chl=fdskjhfdsa78fsd787fdsafuhsdasdfsda"
       />
-      <p>Welcome to a server side rendered page with a random dog photo</p>
+      <p>Look at you go! You were granted a wallet!</p>
       <p>
-        To learn more, head over to our{" "}
-        <a href="https://www.gatsbyjs.com/docs/reference/rendering-options/server-side-rendering/">
-          documentation about Server Side Rendering
-        </a>
-        .
+       Note: A WalleY is linked to your device IMEI. This means that if you lose your device- you will lose your wallet / funds.
       </p>
       <Link to="/">Go back to the homepage</Link>
     </Layout>
