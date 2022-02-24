@@ -8,8 +8,8 @@ import Seo from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
-    <h1>Welcome to QuestR.</h1>
-    <p>Unrecognized Face! You will need to set up an account if you plan on using this platform. </p>
+    <h1>Unrecognized Face! </h1>
+    <p>You will need to set up an account if you plan on using this platform. </p>
     <p>Click a link to proceed...</p>
     <StaticImage
       src="../images/gatsby-astronaut.png"
