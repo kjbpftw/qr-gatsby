@@ -6,10 +6,10 @@ import Seo from "../components/seo"
 
 const SecondPage = () => (
   <Layout>
-    <Seo title="Page two" />
-    <h1>Hi from the second page</h1>
-    <p>Welcome to page 2</p>
-    <Link to="/">Go back to the homepage</Link>
+    <Seo title="QuestR: Affirmations" />
+    <h1>Rules and Regulations</h1>
+    <p>There are policies and procedures in place for good reason - to keep everyone safe. Please take the time to memorize the affirmations. </p>
+    <Link to="/">Go back</Link>
   </Layout>
 )
 
