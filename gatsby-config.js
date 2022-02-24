@@ -34,5 +34,10 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
      `gatsby-plugin-offline`,
+     options: {
+      precachePages: ['/splash/', '/new-wallet/', '/get-wallet/*', '/auth-transaction/*', '/validate/*'];
+      appendScript: require.resolve('src/custom-sw-code.js');
+      workboxConfig: { importWorkboxFrom: 'cdn'};
+    },
   ],
 }
