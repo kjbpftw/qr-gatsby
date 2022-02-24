@@ -7,6 +7,8 @@
   "dependencies": {
     "gatsby": "^4.8.0",
     "gatsby-plugin-gatsby-cloud": "^4.8.0",
+    "gatsby-plugin-fastclick": "^1.0.0",
+    "gatsby-plugin-offline": "^5.8.0",
     "gatsby-plugin-image": "^2.8.0",
     "gatsby-plugin-manifest": "^4.8.0",
     "gatsby-plugin-offline": "^5.8.0",
