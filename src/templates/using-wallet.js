@@ -9,7 +9,12 @@ const UsingWallet = () => (
     <Seo title="Wallet" />
     <h3>QuestR Wallet</h3>
     <p>Awesome, here is your *wallet! Note: Your access keys are stored in cookies. If you clear any data relating to wesync.xyz- you are forfeiting your wallet and any of the funds associated with this account. DO NOT CLEAR ANY DATA!</p>
-  <h1>*4.20</h1>  
+  <h1>*4.20</h1> 
+  <img
+        alt="QR Wallet"
+        src={data.info.qrCodeDataURL}
+      />
+
   <p>
      {" "}
       <a href="#">
