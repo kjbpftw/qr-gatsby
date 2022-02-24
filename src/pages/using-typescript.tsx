@@ -5,13 +5,9 @@ import { PageProps, Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-type DataProps = {
-  site: {
-    buildTime: string
-  }
-}
 
-const UsingTypescript: React.FC<PageProps<DataProps>> = ({ data, path }) => (
+
+const UsingTypescript = () => (
   <Layout>
     <Seo title="QuestR: Security" />
     <h1>Is it Secure? How about safe?</h1>
@@ -28,10 +24,4 @@ const UsingTypescript: React.FC<PageProps<DataProps>> = ({ data, path }) => (
 
 export default UsingTypescript
 
-export const query = graphql`
-  {
-    site {
-      buildTime(formatString: "YYYY-MM-DD hh:mm a z")
-    }
-  }
 `
